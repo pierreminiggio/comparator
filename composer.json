@@ -1,0 +1,12 @@
+{
+    "name": "pierreminiggio/comparator",
+    "description": "Make any object comparable",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "require": {}
+}

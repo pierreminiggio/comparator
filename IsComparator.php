@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib\math\Comparator;
+namespace PierreMiniggio\Comparator;
 
 trait IsComparator
 {

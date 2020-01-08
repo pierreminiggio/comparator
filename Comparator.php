@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib\math\Comparator;
+namespace PierreMiniggio\Comparator;
 
 class Comparator
 {
@@ -9,12 +9,12 @@ class Comparator
     private $a;
 
     /**
-     * @param ComparatorInterface $c 
+     * @param Comparable $c 
      * @param mixed $a
      * 
      * @return static
      */
-    public function __construct(ComparatorInterface $c, $a)
+    public function __construct(Comparable $c, $a)
     {
         $this->c = $c;
         $this->a = $a;

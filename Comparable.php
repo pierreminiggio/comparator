@@ -1,8 +1,8 @@
 <?php
 
-namespace Lib\math\Comparator;
+namespace PierreMiniggio\Comparator;
 
-interface ComparatorInterface
+interface Comparable
 {
     public function areEquals($a, $b);
 
