@@ -13,6 +13,10 @@
         "php": ">=7.4.0"
     },
     "autoload": {
+        "classmap": [
+            "src/",
+            "tests/"
+        ],
         "psr-4": {
             "PierreMiniggio\\Comparator\\": "src/",
             "PierreMiniggio\\ComparatorTest\\": "tests/"
