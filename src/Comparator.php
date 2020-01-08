@@ -49,4 +49,24 @@ class Comparator
     {
         return $this->c->isAGreaterThanB($b, $this->a);
     }
+
+    /**
+     * @param mixed $b 
+     * 
+     * @return bool
+     */
+    public function equalToOrGreaterThan($b)
+    {
+        return ! $this->smallerThan($b);
+    }
+
+    /**
+     * @param mixed $b 
+     * 
+     * @return bool
+     */
+    public function equalToOrSmallerThan($b)
+    {
+        return ! $this->greaterThan($b);
+    }
 }
